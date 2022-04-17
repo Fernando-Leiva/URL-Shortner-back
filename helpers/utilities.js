@@ -9,4 +9,6 @@ const generateHash = (length) => {
    return result;
 }
 
-module.exports = generateHash
+module.exports = {
+  generateHash
+}
